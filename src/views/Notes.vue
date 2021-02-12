@@ -5,6 +5,7 @@
       class="notepad"
       v-model="text"
       @keyup="setLocalStorage"
+      placeholder="write something here."
     >
     </textarea>
   </div>
